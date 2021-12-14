@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Budget App</h1>
+        <div class="budget one">
+            <form>
+                <label>Please Enter Your Budget</label> <br>
+                <input type="number" id="budget">
+            </form>
+            <button id="calc">Calcultate</button>
+        </div>
+        <div class="budget two">
+            <form>
+                <label>Please Enter Your Expense</label> <br>
+                <input type="text" id="expen">
+            </form>
+            <form>
+                <label>Please Enter Your Expense Amount</label> <br>
+                <input type="number" id="amount">
+            </form>
+            <button id="expenses">Add Expense</button>
+        </div>
+        <div class="expense">
+            <div class="budg">
+                <h3>BUDGET</h3>
+                <i class="fas fa-money-bill-alt"></i>
+                <h5 class="dollar">0$</h5>
+            </div>
+            <div class="budg-2">
+                <h3>EXPENSES</h3>
+                <i class="far fa-credit-card"></i>
+                <h5 class="expedollar">0$</h5>
+            </div>
+            <div class="budg-3">
+                <h3>BALANCE</h3>
+                <i class="fas fa-dollar-sign"></i>
+                <h5 class="exbudget">0$</h5>
+            </div>
+        </div>
+        <div class="title">
+            <div class="title-exp">
+                <h5>Expense Title</h5>
+            </div>
+            <div class="title-value">
+                <h5>Expense Value</h5>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

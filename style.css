@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --button-color: #b76243;
+  --view-color: #81876d;
+}
+
+body {
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+
+.budget {
+  position: relative;
+  left: 6%;
+  width: 24%;
+  height: 155px;
+  transform: translateY(95%);
+}
+
+.one {
+  border: 2px solid green;
+  border-radius: 5px;
+}
+.two {
+  border: 2px solid rgb(194, 20, 20);
+  border-radius: 5px;
+  height: 24vh;
+}
+
+form {
+  font-size: 20px;
+  margin-top: 4%;
+  margin-left: 4%;
+}
+
+.budget input {
+  height: 4vh;
+  width: 21vw;
+  margin-top: 2%;
+  border: none;
+  border: 1px solid rgb(20, 20, 20);
+  outline: none;
+  border-radius: 4px;
+  font-size: 22px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  margin-top: 2%;
+  margin-left: 4%;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.one button {
+  border: 1px solid rgb(12, 78, 12);
+  color: rgb(12, 78, 12);
+}
+
+.one button:hover {
+  background-color: rgb(16, 149, 16);
+}
+
+.two button {
+  border: 1px solid rgb(194, 20, 20);
+  color: rgb(194, 20, 20);
+}
+
+.two button:hover {
+  background-color: rgb(246, 71, 71);
+}
+
+.expense {
+  display: flex;
+  margin-left: 20%;
+  margin-top: -15%;
+  justify-content: space-evenly;
+  font-size: 34px;
+  text-align: center;
+  color: rgb(12, 78, 12);
+}
+
+.title {
+  display: flex;
+  margin-left: 28%;
+  margin-top: 4%;
+  font-size: 28px;
+}
+
+.title h5 {
+  padding: 15px 120px;
+}
+
+.title h4 {
+  color: rgb(194, 20, 20);
+  padding: 5px 120px;
+  text-align: center;
+}
+
+.budg-2 .expedollar {
+  color: rgb(194, 20, 20);
+}
+
+@media screen and (max-width: 800px) {
+  .expense {
+    display: flex;
+    margin-left: -5%;
+    margin-top: -425px;
+    justify-content: space-evenly;
+    font-size: 16px;
+    text-align: center;
+  }
+  .budget {
+    position: relative;
+    left: 24%;
+    width: 54%;
+    height: 175px;
+  }
+  .budget.one {
+    transform: translateY(140%);
+  }
+
+  .budget.two {
+    width: 54%;
+    height: 275px;
+  }
+
+  .budget input {
+    height: 4vh;
+    width: 45vw;
+    margin-top: 6%;
+    border: none;
+    border: 1px solid rgb(20, 20, 20);
+    outline: none;
+    border-radius: 4px;
+    font-size: 13px;
+  }
+
+  button {
+    padding: 10px;
+    border: none;
+    margin-top: 8%;
+    margin-left: 4%;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .title {
+    display: flex;
+    margin-left: 2%;
+    margin-top: 4%;
+    font-size: 28px;
+    justify-content: space-evenly;
+  }
+  .title h5 {
+    padding: 5px 5px;
+    font-size: 18px;
+  }
+
+  .title h4 {
+    color: rgb(194, 20, 20);
+    padding: 5px 5px;
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+}
