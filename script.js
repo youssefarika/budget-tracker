@@ -45,4 +45,3 @@ budget.oninput = function (c) {
     };
   };
 };
-// hello I want to sum all the input that I put in Expense Amount in expenses (above the icon) so I've created for each function to chose every value I've created as an H4 tag and comparing it to interger using parseint function and created new var i = 0 and sum all the total vali but that didn't work
